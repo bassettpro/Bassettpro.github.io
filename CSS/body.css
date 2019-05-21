@@ -1,3 +1,31 @@
 body{
     background: var(--blue);
+    font-family: var(--font-one);
 }
+.container {
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+padding: 5px;
+
+margin-left: 0px;
+}
+
+.card-1{
+width: 400px;
+
+}
+
+.card-2{
+width: 400px;
+margin-right: 0px;
+
+}
+.card-img-top{
+height: 250px;
+}
+
+.card-body{
+background-color: red;
+}
+
