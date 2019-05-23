@@ -1,31 +1,26 @@
 body{
-    background: var(--blue);
+    background: var(--black);
     font-family: var(--font-one);
+    color: rgb(117, 96, 192);
 }
 .container {
 display: flex;
-justify-content: space-between;
+justify-content: center;
 max-width: 100%;
 padding: 5px;
 
-margin-left: 0px;
+}
+.about-me {
+    text-align: center;
+    list-style-position: inside;
+}
+form{
+   display: flex;
+    margin: 0px;
+   justify-content: center;
+   height: 30px;
 }
 
-.card-1{
-width: 400px;
 
-}
 
-.card-2{
-width: 400px;
-margin-right: 0px;
-
-}
-.card-img-top{
-height: 250px;
-}
-
-.card-body{
-background-color: red;
-}
 
